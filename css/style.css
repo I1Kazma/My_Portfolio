@@ -19,6 +19,15 @@
   --p-font: 1.1rem;
 }
 
+.opacity-anim {
+  opacity: 0;
+}
+
+.opacity-anim.opacity-show {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
